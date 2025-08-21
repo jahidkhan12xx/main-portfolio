@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Tailwind CSS",
+    "icon_ref": "/tailwindcss.svg"
+  },
+  {
+    "name": "React",
+    "icon_ref": "/react.svg"
+  },
+  {
+    "name": "Next.js",
+    "icon_ref": "/nextjs.svg"
+  },
+  {
+    "name": "Redux",
+    "icon_ref": "/redux.svg"
+  },
+  {
+    "name": "JavaScript",
+    "icon_ref": "/js.svg"
+  },
+  {
+    "name": "TypeScript",
+    "icon_ref": "/typescript.svg"
+  },
+  {
+    "name": "Node.js",
+    "icon_ref": "/nodejs.svg"
+  },
+  {
+    "name": "Express.js",
+    "icon_ref": "/express.svg"
+  },
+  {
+    "name": "MongoDB",
+    "icon_ref": "/mongo.svg"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon_ref": "/postgresql.svg"
+  },
+  {
+    "name": "Supabase",
+    "icon_ref": "/supabase.svg"
+  },
+  {
+    "name": "Firebase",
+    "icon_ref": "/firebase.svg"
+  },
+  {
+    "name": "GitHub",
+    "icon_ref": "/github_icon.svg"
+  }
+]
