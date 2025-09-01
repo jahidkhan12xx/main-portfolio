@@ -4,9 +4,7 @@ import SectionHeader from "../section/SectionHeader";
 import projects from "@/data/projects.json";
 import Project from "./Project";
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <SectionContainer id="projects">
       <div className="section-contents mx-6 md:mx-[64px]">

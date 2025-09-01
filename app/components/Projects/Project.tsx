@@ -30,24 +30,38 @@ const Project = ({
       />
       <div className="flex flex-col gap-[11px]">
         <div className="flex justify-between items-center">
-          <h3 className="font-semibold text-xl md:text-[22px] ">{title}</h3>
+          <h3 className="font-semibold text-xl md:text-[22px]">{title}</h3>
           <a
-            className="flex px-[5px] py-[3px] gap-1 bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px] "
             href={link.url}
+            className="flex px-[5px] py-[3px] gap-1 bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px]"
           >
             <span className="hidden md:block">{link.label}</span>
-            <img className="block dark:hidden" src="link_arrow.svg" alt="" />
-            <img
-              className="hidden dark:block"
+            <Image
+              src="link_arrow.svg"
+              alt="link arrow"
+              width={20}
+              height={20}
+              className="block dark:hidden"
+            />
+            <Image
               src="link_arrow_dark.svg"
-              alt=""
+              alt="link arrow dark"
+              width={20}
+              height={20}
+              className="hidden dark:block"
             />
           </a>
         </div>
         <p className="line-clamp-2 text-sm md:text-base">{description}</p>
         <div className="flex flex-row gap-[11px]">
           {languageIcons.map((icon, id) => (
-            <img key={id} src={icon} alt={icon} />
+            <Image
+              key={id}
+              src={icon}
+              alt={`${title} tech icon`}
+              width={24}
+              height={24}
+            />
           ))}
         </div>
       </div>

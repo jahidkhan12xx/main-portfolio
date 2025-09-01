@@ -7,8 +7,8 @@ const Hero = () => {
       <div className="flex flex-col gap-[13px] items-center md:gap-[34px] md:my-[58px] md:items-start">
         <h1 className="text-2xl/1 text-center font-semibold block md:text-[40px] md:text-start md:inline ">
           <span className="-ml-3">👋</span>
-          Hello I'm Zahid Hassan Khan, I'm a{" "}
-          <span className=" block text-[27px] highlight mt-2 md:inline md:text-[45px] md:mt-0">
+          Hello I&apos;m Zahid Hassan Khan, I&apos;m a{" "}
+          <span className="block text-[27px] highlight mt-2 md:inline md:text-[45px] md:mt-0">
             Fullstack Web Developer
           </span>
         </h1>
@@ -22,7 +22,13 @@ const Hero = () => {
           href="mailto:jahidkhan12xx@gmail.com"
           className="self-center bg-primary text-white p-2.5 rounded flex gap-2.5 items-center text-sm md:self-start md:text-xl/6 "
         >
-          Let's Connect <img className="" src="/arrow_right_icon.svg" alt="" />
+          Let&apos;s Connect{" "}
+          <Image
+            src="/arrow_right_icon.svg"
+            alt="Arrow right icon"
+            width={24}
+            height={24}
+          />
         </a>
       </div>
       <div>

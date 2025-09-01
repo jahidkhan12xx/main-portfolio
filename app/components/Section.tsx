@@ -4,9 +4,7 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact";
 
-type Props = {};
-
-const Section = (props: Props) => {
+const Section = () => {
   return (
     <main className="flex flex-col gap-[142px] w-full md:max-w-[1320px] pt-[236px] md:pt-60 mx-auto">
       <Hero />
