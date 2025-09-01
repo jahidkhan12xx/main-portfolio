@@ -12,7 +12,7 @@ const Hero = () => {
             Fullstack Web Developer
           </span>
         </h1>
-        <p className="text-center text-sm mx-6 md:text-[22px] md:text-start md:mx-0">
+        <p className="text-center text-sm mx-6 md:text-[22px] md:text-start md:mx-0 leading-6 tracking-wider">
           Turning ideas into interactive web experiences. I craft responsive
           websites and web apps using the latest web technologies, blending
           clean code with sleek design. Lifelong learner in the world of web

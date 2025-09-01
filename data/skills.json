@@ -9,7 +9,7 @@
   },
   {
     "name": "Next.js",
-    "icon_ref": "/nextjs.svg"
+    "icon_ref": "/nextjs2.svg"
   },
   {
     "name": "Redux",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Express.js",
-    "icon_ref": "/express.svg"
+    "icon_ref": "/express2.svg"
   },
   {
     "name": "MongoDB",

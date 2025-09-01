@@ -93,40 +93,7 @@ const Navbar = () => {
               Projects
             </div>
           </li>
-          <li>
-            <div
-              onClick={() => {
-                setActiveSection("testimonials");
-                scrollToButton("testimonials");
-                setIsOpen(false);
-              }}
-              className={cn(
-                "rounded p-1 hover:bg-primary hover:text-white md:px-2 duration-300 ease-in-out ",
-                {
-                  "bg-primary text-white": activeSection === "testimonials",
-                }
-              )}
-            >
-              Testimonials
-            </div>
-          </li>
-          <li>
-            <div
-              onClick={() => {
-                setActiveSection("experience");
-                scrollToButton("experience");
-                setIsOpen(false);
-              }}
-              className={cn(
-                "rounded p-1 hover:bg-primary hover:text-white md:px-2 duration-300 ease-in-out ",
-                {
-                  "bg-primary text-white": activeSection === "experience",
-                }
-              )}
-            >
-              Experience
-            </div>
-          </li>
+
           <li>
             <div
               onClick={() => {

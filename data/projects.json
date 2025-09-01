@@ -1,0 +1,42 @@
+[
+  {
+    "thumbnil": "/weather_thumbnail.png",
+    "title": "Quick-Fit",
+    "link": {
+      "label": "Weather_dash",
+      "url": "https://quick-fit-client.vercel.app/"
+    },
+    "description": "Developed a health care that will help users to get diet plan, healthy recipes,many more.",
+    "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
+  },
+  {
+    "thumbnil": "/weather_thumbnail.png",
+    "title": "Quick-Fit",
+    "link": {
+      "label": "Weather_dash",
+      "url": "https://quick-fit-client.vercel.app/"
+    },
+    "description": "Developed a health care that will help users to get diet plan, healthy recipes,many more.",
+    "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
+  },
+  {
+    "thumbnil": "/weather_thumbnail.png",
+    "title": "Quick-Fit",
+    "link": {
+      "label": "Weather_dash",
+      "url": "https://quick-fit-client.vercel.app/"
+    },
+    "description": "Developed a health care that will help users to get diet plan, healthy recipes,many more.",
+    "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
+  },
+  {
+    "thumbnil": "/weather_thumbnail.png",
+    "title": "Quick-Fit",
+    "link": {
+      "label": "Weather_dash",
+      "url": "https://quick-fit-client.vercel.app/"
+    },
+    "description": "Developed a health care that will help users to get diet plan, healthy recipes,many more.",
+    "languageIcons": ["/css_icon.png", "/html_icon.png", "/js_icon.png"]
+  }
+]

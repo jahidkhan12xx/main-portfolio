@@ -7,7 +7,7 @@ type Props = {
 
 const SectionHeader = ({ plainText, highLightText }: Props) => {
   return (
-    <h2 className="text-[22px] md:text-[35px] px-20 text-center">
+    <h2 className="text-[22px] md:text-[35px] px-20 mb-10 text-center">
       {plainText}{" "}
       <span className="highlight px-2 whitespace-nowrap">{highLightText}</span>
     </h2>
